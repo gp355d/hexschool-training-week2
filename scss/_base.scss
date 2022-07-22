@@ -1,0 +1,19 @@
+body{
+    line-height: 42px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+img{
+    vertical-align: middle;
+}
+span{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+    // outline:1px solid #fff;
+}

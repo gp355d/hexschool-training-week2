@@ -1,0 +1,307 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  line-height: 42px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+img {
+  vertical-align: middle;
+}
+
+span {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.banner {
+  background-image: url(/image/banner.png);
+  background-size: cover;
+  background-position: center center;
+  height: 958px;
+  border: 1px solid #707070;
+}
+
+.banner .myName {
+  width: 304px;
+  font-size: 80px;
+  line-height: 106px;
+  font-weight: 900;
+}
+
+.banner .intro {
+  width: 283px;
+  line-height: 36px;
+  margin-left: 13px;
+}
+
+.banner .social-icon {
+  margin-left: 10px;
+  margin-right: 6px;
+}
+
+.banner .social-icon li a img:hover {
+  opacity: 0.4;
+}
+
+.about-me {
+  padding: 56px 0;
+}
+
+.about-me .college-name {
+  width: 412px;
+}
+
+.about-me .photo {
+  margin-bottom: 20px;
+}
+
+.about-me .name {
+  margin-bottom: 4px;
+}
+
+.about-me .line {
+  width: 384px;
+  border: 1px solid #000;
+  margin-bottom: 28px;
+}
+
+.about-me .resume li::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #891818;
+  margin-right: 16px;
+}
+
+.my-brand {
+  padding: 56px 0 160px 0;
+  border: 1px solid #707070;
+}
+
+.my-brand .intro-content {
+  width: 320px;
+  margin: 0 auto;
+  margin-bottom: 68px;
+}
+
+.my-brand .product-photo {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.my-brand .product-photo li {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.my-work {
+  padding: 56px 0 144px 0;
+}
+
+.my-work .description {
+  width: 226px;
+  margin: 0 auto 56px auto;
+}
+
+.footer {
+  padding: 64px 0;
+}
+
+.footer .contact-info {
+  line-height: 36px;
+}
+
+.footer .contact-info li a:hover {
+  opacity: 0.5;
+}
+
+.title {
+  font-size: 64px;
+  line-height: 84px;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.justiy-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.justify-content-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text-color {
+  color: #fff;
+}
+
+.bg-color {
+  background-color: #000;
+}
+
+.mb-1 {
+  margin-bottom: 8px;
+}
+
+.mb-2 {
+  margin-bottom: 16px;
+}
+
+.mb-3 {
+  margin-bottom: 24px;
+}
+
+.mr-2 {
+  margin-right: 16px;
+}
+
+.mr-3 {
+  margin-right: 24px;
+}
+
+.mb-4 {
+  margin-bottom: 32px;
+}
+
+.mb-5 {
+  margin-bottom: 40px;
+}
+
+.mb-6 {
+  margin-bottom: 48px;
+}
+
+.mb-7 {
+  margin-bottom: 56px;
+}
+
+.pb-7 {
+  padding-bottom: 7px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-28 {
+  margin-bottom: 28px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.line-height-30 {
+  line-height: 30px;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.font-weight-900 {
+  font-weight: 900;
+}
+
+.text-center {
+  text-align: center;
+}
+/*# sourceMappingURL=all.css.map */

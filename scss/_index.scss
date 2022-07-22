@@ -1,0 +1,172 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.banner{
+    background-image: url(/image/banner.png);
+    background-size: cover;
+    background-position: center center;
+    height: 958px;
+    border: 1px solid $borderColor;
+    .myName{
+        width: 304px;
+        font-size: 80px;
+        line-height: 106px;
+        font-weight: 900;
+    }
+    .intro{
+        width: 283px;
+        line-height: 36px;
+        margin-left: 13px;
+    }
+    .social-icon{
+        margin-left: 10px;
+        margin-right: 6px;
+       & li a{
+        img:hover{
+            opacity: 0.4;
+        }
+       }
+    }
+}
+.about-me{
+    padding: 56px 0;
+    .college-name{
+        width: 412px;
+    }
+    .photo{
+        margin-bottom: 20px;
+    }
+    .name{
+        margin-bottom: 4px;
+    }
+    .line{
+        width: 384px;
+        border: 1px solid #000;
+        margin-bottom: 28px;
+    }
+    .resume{
+        li::before{
+            content: "";
+            width: 22px;
+            height: 22px;
+            display: inline-block;
+            border-radius: 50%;
+            background-color: #891818;
+            margin-right: 16px;
+        }
+    }
+    // width: 384px;
+    // margin: 0 auto;
+}
+.my-brand{
+    padding: 56px 0 160px 0;
+    border: 1px solid $borderColor;
+    .intro-content{
+        width: 320px;
+        margin: 0 auto;
+        margin-bottom: 68px;
+    }
+    .product-photo{
+        flex-wrap: wrap;
+        li{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}
+.my-work{
+    padding: 56px 0 144px 0;
+    .description{
+        width: 226px;
+        margin: 0 auto 56px auto;
+    }
+}
+.footer{
+    padding: 64px 0;
+    .contact-info{
+        line-height: 36px;
+        & li a:hover{
+            opacity: 0.5;
+        }
+    }
+}
+.title{
+    font-size: 64px;
+    line-height: 84px;
+}
+.d-flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.justiy-content-center{
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.text-color{
+    color: $textColor;
+}
+.bg-color{
+    background-color: $bgColor;
+}
+.mb-1{
+    margin-bottom: 8px;
+}
+.mb-2{
+    margin-bottom: 16px;//8px
+}
+.mb-3{
+    margin-bottom: 24px;//8px
+}
+.mr-2{
+    margin-right: 16px;
+}
+.mr-3{
+    margin-right: 24px;
+}
+.mb-4{
+    margin-bottom: 32px;//8px
+}
+.mb-5{
+    margin-bottom: 40px;//8px
+}
+.mb-6{
+    margin-bottom: 48px;
+}
+.mb-7{
+    margin-bottom: 56px;
+}
+.pb-7{
+    padding-bottom: 7px;
+}
+.mb-12{
+    margin-bottom: 12px;
+}
+.mb-28{
+    margin-bottom: 28px;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.line-height-30{
+    line-height: 30px;
+}
+.font-weight-700{
+    font-weight: 700;
+}
+.font-weight-900{
+    font-weight: 900;
+}
+.text-center{
+    text-align: center;
+}
