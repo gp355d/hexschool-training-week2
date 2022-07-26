@@ -63,8 +63,6 @@
     padding: 56px 0 160px 0;
     border: 1px solid $borderColor;
     .intro-content{
-        width: 320px;
-        margin: 0 auto;
         margin-bottom: 68px;
     }
     .product-photo{
@@ -78,8 +76,7 @@
 .my-work{
     padding: 56px 0 144px 0;
     .description{
-        width: 226px;
-        margin: 0 auto 56px auto;
+        margin-bottom: 56px;
     }
 }
 .footer{
